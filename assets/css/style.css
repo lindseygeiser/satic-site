@@ -1,0 +1,150 @@
+body {
+    background-color: #F7F5F0;
+    font-family: 'Affogato-Medium', sans-serif;
+    color: #F7F5F0;
+    line-height: 1.5;
+}
+
+/* HEADER */
+nav {
+    width: 960px;
+    margin: 30px auto;
+    position: relative;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #786D5F;
+    font-size: 20px;
+    background-color: #F7F5F0;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #B8A888;
+}
+
+nav a.focus {
+    font-weight: bold;
+}
+
+.logo {
+    background-color: #786D5F;
+    color: #F7F5F0;
+    padding: 15px 50px;
+}
+
+.image-scrolling {
+    display: flex;
+    align-items: flex-end;
+}
+
+img.scroll {
+    width: 100%;
+}
+
+/* MAIN */
+main {
+    background-color: #786D5F;
+}
+
+.header {
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 24px;
+    font-family: 'Affogato-Regular';
+}
+
+.links {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.links ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.links li {
+    text-align: center;
+}
+
+.links img {
+    display: block;
+    padding: 10px;
+    width: 200px;
+}
+
+.links a {
+    display: block;
+    color: #F7F5F0;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    transition: .3s ease-in-out;
+}
+
+.links a:hover {
+    color: #B8A888;
+}
+
+.double {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #B8A888;
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+}
+
+.content-wrapper:first-child {
+    text-align: right;
+}
+
+.content-wrapper h2 {
+    color: #F7F5F0;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content-wrapper p {
+    font-size: 21px;
+    font-family: 'Affogato-Regular';
+}
+
+/* FOOTER */
+footer {
+    background-color: #B8A888;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
